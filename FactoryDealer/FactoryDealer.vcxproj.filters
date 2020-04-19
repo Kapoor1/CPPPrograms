@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{2509511d-6958-429e-8795-3f1d27f2c833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteCarTypes">
+      <UniqueIdentifier>{362422c5-fc53-4d78-b9fe-59355edd85cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConcreteCarModels">
+      <UniqueIdentifier>{d508db50-efaf-4f5a-929b-163cdb96fb00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICarType.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Maruti.cpp">
+      <Filter>ConcreteCarModels</Filter>
+    </ClInclude>
+    <ClInclude Include="TataMotors.cpp">
+      <Filter>ConcreteCarModels</Filter>
+    </ClInclude>
+    <ClInclude Include="HathBack.h">
+      <Filter>ConcreteCarTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sedan.h">
+      <Filter>ConcreteCarTypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IFactory.h">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

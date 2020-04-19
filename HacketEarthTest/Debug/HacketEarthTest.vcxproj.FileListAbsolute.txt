@@ -1,0 +1,2 @@
+C:\Users\Gaurav\source\repos\HacketEarthTest\Debug\HacketEarthTest.exe
+C:\Users\Gaurav\source\repos\HacketEarthTest\Debug\HacketEarthTest.pdb

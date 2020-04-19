@@ -1,0 +1,151 @@
+﻿Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_SDK_HOME = C:\Android
+APPDATA = C:\Users\Gaurav\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPLUS_InstallRoot = 
+COMPLUS_Version = 
+COMPUTERNAME = DESKTOP-4EB3JHJ
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\Gaurav
+LOCALAPPDATA = C:\Users\Gaurav\AppData\Local
+LOGONSERVER = \\DESKTOP-4EB3JHJ
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\Gaurav\OneDrive
+OS = Windows_NT
+Path = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;C:\Users\Gaurav\anaconda3;C:\Users\Gaurav\anaconda3\Library\mingw-w64\bin;C:\Users\Gaurav\anaconda3\Library\usr\bin;C:\Users\Gaurav\anaconda3\Library\bin;C:\Users\Gaurav\anaconda3\Scripts;C:\Users\Gaurav\AppData\Local\Microsoft\WindowsApps
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\Gaurav\AppData\Local\Microsoft\VisualStudio\16.0_d6d9f434\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\Gaurav\AppData\Local\Temp
+TMP = C:\Users\Gaurav\AppData\Local\Temp
+USERDOMAIN = DESKTOP-4EB3JHJ
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-4EB3JHJ
+USERNAME = Gaurav
+USERPROFILE = C:\Users\Gaurav
+VBOX_MSI_INSTALL_PATH = D:\VirtualBox\
+VisualStudioDir = C:\Users\Gaurav\Documents\Visual Studio 2019
+VisualStudioEdition = Microsoft Visual Studio Enterprise 2019
+VisualStudioVersion = 16.0
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSAPPIDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Enterprise
+windir = C:\WINDOWS
+
+  copyConst.cpp
+C:\Users\Gaurav\source\repos\CopyConstructorMix\copyConst.cpp(56): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'M_Class' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(438): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(413): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(395): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(377): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(359): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(341): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(323): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(305): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(287): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(269): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(249): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(231): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(203): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(185): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(180): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(175): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(170): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(614): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(659): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(695): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(740): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(859): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(865): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(871): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(877): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.20.27508\include\ostream(922): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+  C:\Users\Gaurav\source\repos\CopyConstructorMix\copyConst.cpp(56): note: while trying to match the argument list '(std::ostream, M_Class)'
+
+Project Performance Summary:
+     9082 ms  C:\Users\Gaurav\source\repos\CopyConstructorMix\CopyConstructorMix.vcxproj   1 calls
+               9082 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        1 ms  BuildGenerateSources                       1 calls
+        1 ms  ExpandSDKReferences                        1 calls
+        1 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        1 ms  BeforeClCompile                            1 calls
+        2 ms  ComputeReferenceCLInput                    1 calls
+        2 ms  GetReferenceAssemblyPaths                  1 calls
+        2 ms  GetFrameworkPaths                          1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        2 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        3 ms  FixupCLCompileOptions                      1 calls
+        3 ms  _CheckWindowsSDKInstalled                  1 calls
+        3 ms  _PrepareForBuild                           1 calls
+        3 ms  MakeDirsForMidl                            1 calls
+        4 ms  WarnCompileDuplicatedFilename              1 calls
+        5 ms  MakeDirsForCl                              1 calls
+        7 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+       36 ms  AssignProjectConfiguration                 1 calls
+       39 ms  InitializeBuildStatus                      1 calls
+       75 ms  CopyFileToFolders                          1 calls
+      134 ms  SetTelemetryEnvironmentVariables           1 calls
+      166 ms  _PrepareForReferenceResolution             1 calls
+      167 ms  PrepareForBuild                            1 calls
+      216 ms  _HandlePackageFileConflicts                1 calls
+      262 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+      405 ms  ResolveProjectReferences                   1 calls
+     7493 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        2 ms  MSBuild                                    1 calls
+        4 ms  MakeDir                                    4 calls
+        7 ms  WriteLinesToFile                           1 calls
+        9 ms  ReadLinesFromFile                          1 calls
+       12 ms  Message                                    2 calls
+       17 ms  Touch                                      1 calls
+       29 ms  SetEnv                                     8 calls
+       33 ms  AssignProjectConfiguration                 1 calls
+       74 ms  GetOutOfDateItems                          1 calls
+      191 ms  ResolvePackageFileConflicts                1 calls
+     7489 ms  CL                                         1 calls

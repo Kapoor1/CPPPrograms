@@ -1,0 +1,5 @@
+#include <ioconfig>
+
+class TDispObserver {
+
+};

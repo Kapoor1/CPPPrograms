@@ -1,0 +1,87 @@
+﻿Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_SDK_HOME = C:\Android
+APPDATA = C:\Users\Gaurav\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = DESKTOP-4EB3JHJ
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DriverData = C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+HOMEDRIVE = C:
+HOMEPATH = \Users\Gaurav
+LOCALAPPDATA = C:\Users\Gaurav\AppData\Local
+LOGONSERVER = \\DESKTOP-4EB3JHJ
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 4
+OneDrive = C:\Users\Gaurav\OneDrive
+OS = Windows_NT
+Path = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\Windows\System32;C:\Users\Gaurav\AppData\Local\Microsoft\WindowsApps
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\Gaurav\AppData\Local\Microsoft\VisualStudio\16.0_d6d9f434\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC = C:\Users\Public
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\Gaurav\AppData\Local\Temp
+TMP = C:\Users\Gaurav\AppData\Local\Temp
+USERDOMAIN = DESKTOP-4EB3JHJ
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-4EB3JHJ
+USERNAME = Gaurav
+USERPROFILE = C:\Users\Gaurav
+VisualStudioDir = C:\Users\Gaurav\Documents\Visual Studio 2019
+VisualStudioEdition = Microsoft Visual Studio Enterprise 2019
+VisualStudioVersion = 16.0
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSAPPIDDIR = C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\
+VSAPPIDNAME = devenv.exe
+VSLANG = 1033
+VSSKUEDITION = Enterprise
+windir = C:\WINDOWS
+
+
+Project Performance Summary:
+     1140 ms  C:\Users\Gaurav\source\repos\ObserverPattern\ObserverPattern.vcxproj   1 calls
+               1140 ms  Clean                                      1 calls
+
+Target Performance Summary:
+        0 ms  Clean                                      1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        1 ms  CleanReferencedProjects                    1 calls
+        1 ms  AfterClean                                 1 calls
+        1 ms  BeforeClean                                1 calls
+        3 ms  _SplitProjectReferencesByFileExistence     1 calls
+       10 ms  PGInstrumentedClean                        1 calls
+       51 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+       58 ms  AssignProjectConfiguration                 1 calls
+       86 ms  _PrepareForClean                           1 calls
+      123 ms  CoreCppClean                               1 calls
+      257 ms  CoreClean                                  1 calls
+      353 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+
+Task Performance Summary:
+        3 ms  RemoveDuplicates                           1 calls
+       14 ms  MakeDir                                    2 calls
+       19 ms  WriteLinesToFile                           2 calls
+       19 ms  AssignProjectConfiguration                 1 calls
+       26 ms  ReadLinesFromFile                          1 calls
+       28 ms  MSBuild                                    1 calls
+       61 ms  CppClean                                   1 calls
+       86 ms  Delete                                     4 calls
+      103 ms  Message                                    2 calls
+      150 ms  FindUnderPath                              2 calls
